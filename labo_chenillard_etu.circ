@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="748e3a2298df632da379d7d1c91eb3824d030b91" source="2.16.8.t" version="1.0">
+<project integrity="3f8c651d4a81f6c98e88b58c6860e7dd8415e5cb" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -412,7 +412,245 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
-    <comp lib="0" loc="(800,370)" name="Pin">
+    <wire from="(940,380)" to="(990,380)"/>
+    <wire from="(680,400)" to="(990,400)"/>
+    <wire from="(450,180)" to="(510,180)"/>
+    <wire from="(600,200)" to="(600,210)"/>
+    <wire from="(640,180)" to="(640,190)"/>
+    <wire from="(840,190)" to="(900,190)"/>
+    <wire from="(850,140)" to="(850,210)"/>
+    <wire from="(900,350)" to="(900,420)"/>
+    <wire from="(580,190)" to="(640,190)"/>
+    <wire from="(770,200)" to="(770,270)"/>
+    <wire from="(710,200)" to="(770,200)"/>
+    <wire from="(640,350)" to="(640,420)"/>
+    <wire from="(640,270)" to="(680,270)"/>
+    <wire from="(810,270)" to="(810,300)"/>
+    <wire from="(310,90)" to="(480,90)"/>
+    <wire from="(860,340)" to="(860,370)"/>
+    <wire from="(470,190)" to="(470,210)"/>
+    <wire from="(900,270)" to="(940,270)"/>
+    <wire from="(640,180)" to="(740,180)"/>
+    <wire from="(740,180)" to="(740,210)"/>
+    <wire from="(550,270)" to="(550,300)"/>
+    <wire from="(810,300)" to="(810,390)"/>
+    <wire from="(600,340)" to="(600,370)"/>
+    <wire from="(640,190)" to="(640,270)"/>
+    <wire from="(860,60)" to="(860,210)"/>
+    <wire from="(900,190)" to="(900,270)"/>
+    <wire from="(510,180)" to="(510,270)"/>
+    <wire from="(730,190)" to="(730,210)"/>
+    <wire from="(550,300)" to="(550,410)"/>
+    <wire from="(470,250)" to="(470,300)"/>
+    <wire from="(730,370)" to="(860,370)"/>
+    <wire from="(640,420)" to="(770,420)"/>
+    <wire from="(730,250)" to="(730,300)"/>
+    <wire from="(470,370)" to="(600,370)"/>
+    <wire from="(1010,370)" to="(1020,370)"/>
+    <wire from="(830,230)" to="(840,230)"/>
+    <wire from="(800,300)" to="(810,300)"/>
+    <wire from="(860,300)" to="(870,300)"/>
+    <wire from="(860,340)" to="(870,340)"/>
+    <wire from="(570,230)" to="(580,230)"/>
+    <wire from="(540,300)" to="(550,300)"/>
+    <wire from="(600,300)" to="(610,300)"/>
+    <wire from="(600,340)" to="(610,340)"/>
+    <wire from="(480,90)" to="(480,210)"/>
+    <wire from="(810,390)" to="(990,390)"/>
+    <wire from="(550,410)" to="(990,410)"/>
+    <wire from="(710,200)" to="(710,210)"/>
+    <wire from="(510,350)" to="(510,420)"/>
+    <wire from="(340,150)" to="(720,150)"/>
+    <wire from="(340,160)" to="(590,160)"/>
+    <wire from="(340,140)" to="(850,140)"/>
+    <wire from="(770,350)" to="(770,420)"/>
+    <wire from="(340,170)" to="(460,170)"/>
+    <wire from="(940,270)" to="(940,300)"/>
+    <wire from="(770,270)" to="(810,270)"/>
+    <wire from="(870,180)" to="(870,210)"/>
+    <wire from="(680,270)" to="(680,300)"/>
+    <wire from="(730,340)" to="(730,370)"/>
+    <wire from="(470,190)" to="(580,190)"/>
+    <wire from="(610,180)" to="(610,210)"/>
+    <wire from="(770,180)" to="(870,180)"/>
+    <wire from="(450,180)" to="(450,210)"/>
+    <wire from="(840,190)" to="(840,210)"/>
+    <wire from="(470,340)" to="(470,370)"/>
+    <wire from="(730,190)" to="(840,190)"/>
+    <wire from="(510,180)" to="(610,180)"/>
+    <wire from="(600,200)" to="(710,200)"/>
+    <wire from="(580,190)" to="(580,210)"/>
+    <wire from="(940,300)" to="(940,380)"/>
+    <wire from="(310,60)" to="(860,60)"/>
+    <wire from="(510,270)" to="(550,270)"/>
+    <wire from="(770,180)" to="(770,200)"/>
+    <wire from="(310,370)" to="(470,370)"/>
+    <wire from="(680,300)" to="(680,400)"/>
+    <wire from="(460,170)" to="(460,210)"/>
+    <wire from="(440,230)" to="(450,230)"/>
+    <wire from="(470,300)" to="(480,300)"/>
+    <wire from="(470,340)" to="(480,340)"/>
+    <wire from="(310,120)" to="(320,120)"/>
+    <wire from="(310,180)" to="(320,180)"/>
+    <wire from="(770,420)" to="(900,420)"/>
+    <wire from="(720,150)" to="(720,210)"/>
+    <wire from="(600,370)" to="(730,370)"/>
+    <wire from="(930,300)" to="(940,300)"/>
+    <wire from="(510,420)" to="(640,420)"/>
+    <wire from="(600,250)" to="(600,300)"/>
+    <wire from="(590,160)" to="(590,210)"/>
+    <wire from="(700,230)" to="(710,230)"/>
+    <wire from="(670,300)" to="(680,300)"/>
+    <wire from="(310,420)" to="(510,420)"/>
+    <wire from="(730,300)" to="(740,300)"/>
+    <wire from="(730,340)" to="(740,340)"/>
+    <wire from="(860,250)" to="(860,300)"/>
+    <comp lib="0" loc="(310,120)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="20.11.20 15:22:19"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="e877f664-fb73-48ff-aae4-52877d6f8993"/>
+      <a name="integrity" val="55b58464d3b7b2e192992fa27056a89e38bbcd50"/>
+    </comp>
+    <comp lib="0" loc="(320,120)" name="Tunnel">
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(310,60)" name="Pin">
+      <a name="label" val="ser_l_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="20.11.20 15:22:19"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="46c0d473-5dc7-4e0a-8a33-e80bd295729f"/>
+      <a name="integrity" val="53b1aac5affe36ac7e19307726072ff0e5e29fb1"/>
+    </comp>
+    <comp lib="2" loc="(470,250)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="28.11.23 15:00:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="53c802bf-e733-49ab-b0dc-7406cd0e44b2"/>
+      <a name="integrity" val="332da13eaf4102ebf8626505fd8d328976a8e0b4"/>
+    </comp>
+    <comp lib="0" loc="(440,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(320,180)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="22.11.23 14:33:43"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="73b7b35d-8a6c-4385-96a9-40d6e96a4ee2"/>
+      <a name="integrity" val="27f9507c213b02c5bef19c92bb9bbe99545ec48e"/>
+    </comp>
+    <comp lib="0" loc="(310,180)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="value_load_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="20.11.20 15:22:19"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="224a8dbb-8e06-4d81-be77-5bb6634b9090"/>
+      <a name="integrity" val="8aeb5f76f3f1293b0b7e96f021b0aa92a7316bd8"/>
+    </comp>
+    <comp lib="4" loc="(490,290)" name="D Flip-Flop">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="22.11.23 14:32:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="37572b52-3e80-4471-a5a2-4da82233918a"/>
+      <a name="integrity" val="f5e1ea2253f778acff51ae87b40734ce6ee800af"/>
+    </comp>
+    <comp lib="2" loc="(600,250)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="28.11.23 15:00:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="dd6a963c-a518-4209-b93a-d259d71f5a2c"/>
+      <a name="integrity" val="d863251703989f1e266fd8ec1cbe5401992fba52"/>
+    </comp>
+    <comp lib="0" loc="(570,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(700,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="2" loc="(730,250)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="28.11.23 15:00:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="bf703e99-ae6c-4b03-af84-69eeab0701cc"/>
+      <a name="integrity" val="c12183ae08793d2ac8909d882af676e585dd221c"/>
+    </comp>
+    <comp lib="0" loc="(830,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="2" loc="(860,250)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="28.11.23 15:00:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="eed99836-824f-428a-a2ba-216d2e693b81"/>
+      <a name="integrity" val="746a8f1e95f0818e60bf660439b0b9c577da87da"/>
+    </comp>
+    <comp lib="0" loc="(310,370)" name="Pin">
+      <a name="label" val="clk_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="20.11.20 15:22:00"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="3f0f53f8-86af-440f-8ef8-c00e343e8a97"/>
+      <a name="integrity" val="df0b5d560c557912665e5e9cfd457c5936f45957"/>
+    </comp>
+    <comp lib="4" loc="(620,290)" name="D Flip-Flop">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="22.11.23 14:32:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="ebcaa751-a0d6-44af-9a7a-7da23072e505"/>
+      <a name="integrity" val="632e2c79f8ebc5c24f5f10e5cb0c159c041a2e49"/>
+    </comp>
+    <comp lib="4" loc="(750,290)" name="D Flip-Flop">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="22.11.23 14:32:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="8436adee-b95b-4d22-bbd2-593a20430224"/>
+      <a name="integrity" val="19de62e2c46eb8531baadd76d532df045668c3a6"/>
+    </comp>
+    <comp lib="4" loc="(880,290)" name="D Flip-Flop">
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="22.11.23 14:32:21"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="6f015103-164f-44b0-9093-e5a04d8cc405"/>
+      <a name="integrity" val="907bff77823c4af4dc322962d51a08ac34368de2"/>
+    </comp>
+    <comp lib="0" loc="(1010,370)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="owner" val="calum_quinn"/>
+      <a name="date" val="28.11.23 15:14:59"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="0aede20a-8b74-4f40-87a9-713a2e894544"/>
+      <a name="integrity" val="59ad3b25959c443db786e9962e4af8f3e77a0ffb"/>
+    </comp>
+    <comp lib="0" loc="(1020,370)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
@@ -424,32 +662,7 @@ end TCL_Generic;&#13;
       <a name="uuid" val="af42427f-1311-4d8e-a785-12a54f017b19"/>
       <a name="integrity" val="d98e66f6a739f98ae07e5fb4cb64c497c42e8186"/>
     </comp>
-    <comp lib="0" loc="(420,390)" name="Pin">
-      <a name="width" val="2"/>
-      <a name="label" val="mode_i"/>
-      <a name="owner" val="gaetan_matthey"/>
-      <a name="date" val="20.11.20 15:22:19"/>
-      <a name="version" val="2.14.8.t"/>
-      <a name="uuid" val="e877f664-fb73-48ff-aae4-52877d6f8993"/>
-      <a name="integrity" val="55b58464d3b7b2e192992fa27056a89e38bbcd50"/>
-    </comp>
-    <comp lib="0" loc="(420,480)" name="Pin">
-      <a name="label" val="clk_i"/>
-      <a name="owner" val="gaetan_matthey"/>
-      <a name="date" val="20.11.20 15:22:00"/>
-      <a name="version" val="2.14.8.t"/>
-      <a name="uuid" val="3f0f53f8-86af-440f-8ef8-c00e343e8a97"/>
-      <a name="integrity" val="df0b5d560c557912665e5e9cfd457c5936f45957"/>
-    </comp>
-    <comp lib="0" loc="(420,290)" name="Pin">
-      <a name="label" val="ser_l_i"/>
-      <a name="owner" val="gaetan_matthey"/>
-      <a name="date" val="20.11.20 15:22:19"/>
-      <a name="version" val="2.14.8.t"/>
-      <a name="uuid" val="46c0d473-5dc7-4e0a-8a33-e80bd295729f"/>
-      <a name="integrity" val="53b1aac5affe36ac7e19307726072ff0e5e29fb1"/>
-    </comp>
-    <comp lib="0" loc="(420,260)" name="Pin">
+    <comp lib="0" loc="(310,90)" name="Pin">
       <a name="label" val="ser_r_i"/>
       <a name="owner" val="gaetan_matthey"/>
       <a name="date" val="20.11.20 15:22:19"/>
@@ -457,16 +670,7 @@ end TCL_Generic;&#13;
       <a name="uuid" val="1e4b8140-34c5-4498-830d-79c1984cf22e"/>
       <a name="integrity" val="b211e9c73856350a9973c255dcb084a2c1d953e6"/>
     </comp>
-    <comp lib="0" loc="(420,340)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="label" val="value_load_i"/>
-      <a name="owner" val="gaetan_matthey"/>
-      <a name="date" val="20.11.20 15:22:19"/>
-      <a name="version" val="2.14.8.t"/>
-      <a name="uuid" val="224a8dbb-8e06-4d81-be77-5bb6634b9090"/>
-      <a name="integrity" val="8aeb5f76f3f1293b0b7e96f021b0aa92a7316bd8"/>
-    </comp>
-    <comp lib="0" loc="(420,510)" name="Pin">
+    <comp lib="0" loc="(310,420)" name="Pin">
       <a name="label" val="reset_i"/>
       <a name="owner" val="gaetan_matthey"/>
       <a name="date" val="20.11.20 15:22:00"/>
