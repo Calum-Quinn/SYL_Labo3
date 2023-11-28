@@ -44,7 +44,14 @@ Au vu de la question, on veut savoir si c'est normal que le bit "disparaisse" qu
 Si nous avions décider de faire que le circuit fasse revenir par là droite un bit sortant à gauche, nous aurions dû faire beaucoup de changements pour implémenter le registre à 8 bits en utilisant le registre à 4 bits.
 
 ### Question 5
-#### Avec une fréquence d'horloge `clk_i` de 30MHz, calculez le nombre de cycle à atte de cycles visé en fonction de la fréquence et l'équivalence encodée au format hexadécimal sur 28 bits `0xffffffff`.
+#### Avec une fréquence d'horloge `clk_i` de 30MHz, calculez le nombre de cycle à attendre pour qu'il corresponde à une fréquence de 4, 2, 1 et 0.5Hz et complétez le tableau ci-dessous avec le nombre de cycles visé en fonction de la fréquence et l'équivalence encodée au format hexadécimal sur 28 bits `0xfffffff`.
+
+|Fréquence visée|Nombres de cycle|Equivalence 28bits hexadécimal|
+|---------------|----------------|------------------------------|
+|4.0Hz          |7'500'000		 |0x07270E0						|
+|2.0Hz          |15'000'000		 |0x0E4E1C0						|
+|1.0Hz          |30'000'000		 |0x1C9C380						|
+|0.5Hz          |60'000'000		 |0x3938700						|
 
 ### Question 6
 #### Démontrez que le fonctionnement attendu est conforme en mettant en évidence les différents états sur votre chronogramme. Développez et argumentez votre réponse.
