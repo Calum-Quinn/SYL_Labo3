@@ -22,6 +22,8 @@ Nous obtenons la valeur `0b1000`.
 ### Question 3
 #### Mettez en évidence les différentes étapes ci-dessus dans votre chronogramme.
 
+![Chronogram](ChronogramQ3Capture.png)
+
 ### Question 4
 #### Votre circuit a-t-il le comportement attendu? ARgumentez et développez votre réponse.
 
