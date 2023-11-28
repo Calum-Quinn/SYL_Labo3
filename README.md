@@ -24,8 +24,24 @@ Nous obtenons la valeur `0b1000`.
 
 ![Chronogram](ChronogramQ3Capture.png)
 
+Dans l'image au dessus nous voyons les 5 étapes importantes entourées de rectangles rouge.
+- Le premier rectangle représente le décalage du bit vers la gauche jusqu'au bout.
+  Le résultat passe à 0 quand le bit sort du résultat.
+- Le deuxième rectangle représente le décalage du bit vers la droite jusqu'au bout.
+  Le résultat passe aussi à 0 quand le bit sort du résultat.
+- Le troisième rectangle représente le décalage des deux bits de 2 pas vers la droite.
+Avant chacun de ces trois rectangles nous faisons le `LOAD` de la valeur nécessaire.
+- Le quatrième rectangle représente le `HOLD` maintenant la même valeur à la sortie.
+- Le dernier rectangle représente le reset asynchrone.
+
 ### Question 4
-#### Votre circuit a-t-il le comportement attendu? ARgumentez et développez votre réponse.
+#### Votre circuit a-t-il le comportement attendu? Argumentez et développez votre réponse.
+
+Oui le circuit a un comportement attendu.
+
+Au vu de la question, on veut savoir si c'est normal que le bit "disparaisse" quand il arrive au bout de la représentation. Ceci est normal car le but du circuit et simplement de déplacer les bits visuels de côté et pas de faire quelque chose de cyclique.
+
+Si nous avions décider de faire que le circuit fasse revenir par là droite un bit sortant à gauche, nous aurions dû faire beaucoup de changements pour implémenter le registre à 8 bits en utilisant le registre à 4 bits.
 
 ### Question 5
 #### Avec une fréquence d'horloge `clk_i` de 30MHz, calculez le nombre de cycle à atte de cycles visé en fonction de la fréquence et l'équivalence encodée au format hexadécimal sur 28 bits `0xffffffff`.
