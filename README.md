@@ -55,3 +55,32 @@ Si nous avions décider de faire que le circuit fasse revenir par là droite un 
 
 ### Question 6
 #### Démontrez que le fonctionnement attendu est conforme en mettant en évidence les différents états sur votre chronogramme. Développez et argumentez votre réponse.
+
+Dû à la limitation de performance du logiciel Logisim, nous avons dû mettre des valeurs différentes pour les fréquences de l'horloge et du chenillard pour avoir une représentation utilisable.
+
+De plus, dans cette exemple, la valeur du `speed` sur deux bits est inversé. Dans le vrai circuit, plus la valeur `speed` est élevée plus le chenillard est lent. Dans cette exemple c'est donc en augmentant la valeur `speed` que nous augmentons réellement la vitesse de défilement du chenillard.
+
+![Chronogram](ChronogramQ6-1.png)
+
+- Sur cette première partie du chronogramme nous pouvons voir dans le premier rectangle rouge, le délai entre l'activation de l'entrée `load_i` et le load réel sur les LEDs. Ceci nous montre que c'est une opération synchrone.
+- Dans le deuxième rectangle nous voyons qu'après le load le chenillard maintien simplement la valeur sur les LEDs.
+- Le troisième rectangle nous présente le miantient de la valeur affichée même lorsque nous enlevons l'entrée `load_i`.
+- Le quatrième rectangle met en évidence le départ du chenillard avec l'allumage de l'entrée `en_i`. Nous voyons que la valeur des LEDs commence à circuler vers la gauche.
+- Le cinquième rectangle représente le changement de sens de circulation quand on active l'entrée `right_nleft_i`.
+- Le sixième rectangle nous montre l'augmentation de vitesse quand on passe l'entrée speed de `00` à `01`. Nous n'avons donc pas besoin d'arrêter le chenillard pour adapter sa vitesse. Le changement est visible par le temps que passe la sortie LED dans chaque état (moins de temps veut dire plus rapide).
+- Le septième rectangle mets simplement la vitesse à `10` est donc diminue encore plus le temps passé dans chaque état.
+
+Il est important de noter que la vitesse de l'horloge `clk` ne varie jamais.
+
+![Chronogram](ChronogramQ6-2.png)
+
+- Cette deuxième partie reprend directement après la fin de la partie précédente et nous montre avec le premier rectangle la vitesse à `10`.
+- Le deuxième rectangle nous montre l'augmentation dun e la vitesse à la vitesse maximale de `11`.
+- Le troisième rectangle nous montre qu'en retirant l'entrée `en_i` le chenillard s'arrête et maintien la valeur actuel.
+- Le quatrième rectangle nous montre le chargement d'une valeur par dessus une autre. L'état initial de la sortie n'est pas important pour un nouveau `load`.
+- Le cinquième rectangle nous montre la reprise du chenillard à zéro mais avec une vitesse élevée dès le début.
+
+![Chronogram](ChronogramQ6-3.png)
+
+- Le premier rectangle de cette dernière partie nous montre le fonctionnement standard du chenillard.
+- Le deuxième et dernier rectangle nous montre la mise à zéro de la sortie avec l'activation de l'entrée `reset_i`.
