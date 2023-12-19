@@ -22,7 +22,7 @@ Nous obtenons la valeur `0b1000`.
 ### Question 3
 #### Mettez en évidence les différentes étapes ci-dessus dans votre chronogramme.
 
-![Chronogram](ChronogramQ3Capture.png)
+![Chronogram](Chronograms/ChronogramQ3Capture.png)
 
 Dans l'image au dessus nous voyons les 5 étapes importantes entourées de rectangles rouge.
 - Le premier rectangle représente le décalage du bit vers la gauche jusqu'au bout.
@@ -60,7 +60,7 @@ Dû à la limitation de performance du logiciel Logisim, nous avons dû mettre d
 
 De plus, dans cette exemple, la valeur du `speed` sur deux bits est inversé. Dans le vrai circuit, plus la valeur `speed` est élevée plus le chenillard est lent. Dans cette exemple c'est donc en augmentant la valeur `speed` que nous augmentons réellement la vitesse de défilement du chenillard.
 
-![Chronogram](ChronogramQ6-1.png)
+![Chronogram](Chronograms/ChronogramQ6-1.png)
 
 - Sur cette première partie du chronogramme nous pouvons voir dans le premier rectangle rouge, le délai entre l'activation de l'entrée `load_i` et le load réel sur les LEDs. Ceci nous montre que c'est une opération synchrone.
 - Dans le deuxième rectangle nous voyons qu'après le load le chenillard maintien simplement la valeur sur les LEDs.
@@ -72,7 +72,7 @@ De plus, dans cette exemple, la valeur du `speed` sur deux bits est inversé. Da
 
 Il est important de noter que la vitesse de l'horloge `clk` ne varie jamais.
 
-![Chronogram](ChronogramQ6-2.png)
+![Chronogram](Chronograms/ChronogramQ6-2.png)
 
 - Cette deuxième partie reprend directement après la fin de la partie précédente et nous montre avec le premier rectangle la vitesse à `10`.
 - Le deuxième rectangle nous montre l'augmentation dun e la vitesse à la vitesse maximale de `11`.
@@ -80,7 +80,7 @@ Il est important de noter que la vitesse de l'horloge `clk` ne varie jamais.
 - Le quatrième rectangle nous montre le chargement d'une valeur par dessus une autre. L'état initial de la sortie n'est pas important pour un nouveau `load`.
 - Le cinquième rectangle nous montre la reprise du chenillard à zéro mais avec une vitesse élevée dès le début.
 
-![Chronogram](ChronogramQ6-3.png)
+![Chronogram](Chronograms/ChronogramQ6-3.png)
 
 - Le premier rectangle de cette dernière partie nous montre le fonctionnement standard du chenillard.
 - Le deuxième et dernier rectangle nous montre la mise à zéro de la sortie avec l'activation de l'entrée `reset_i`.
