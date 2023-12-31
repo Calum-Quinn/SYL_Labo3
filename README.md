@@ -1,3 +1,5 @@
+<div align="justify" style="margin-right:25px;margin-left:25px">
+
 # SYL_Labo3
 
 ## Questions
@@ -19,12 +21,14 @@ Nous obtenons la valeur `0b1000`.
 - Shift left `0100`
 - Shift left `1000`
 
+<div style="page-break-after: always;"></div>
+
 ### Question 3
 #### Mettez en évidence les différentes étapes ci-dessus dans votre chronogramme.
 
 ![Chronogram](Chronograms/ChronogramQ3Capture.png)
 
-Dans l'image au dessus nous voyons les 5 étapes importantes entourées de rectangles rouge.
+Dans l'image ci-dessus, nous voyons les 5 étapes importantes entourées de rectangles rouges.
 - Le premier rectangle représente le décalage du bit vers la gauche jusqu'au bout.
   Le résultat passe à 0 quand le bit sort du résultat.
 - Le deuxième rectangle représente le décalage du bit vers la droite jusqu'au bout.
@@ -37,11 +41,13 @@ Avant chacun de ces trois rectangles nous faisons le `LOAD` de la valeur nécess
 ### Question 4
 #### Votre circuit a-t-il le comportement attendu? Argumentez et développez votre réponse.
 
-Oui le circuit a un comportement attendu.
+Oui, le circuit a un comportement attendu.
 
 Au vu de la question, on veut savoir si c'est normal que le bit "disparaisse" quand il arrive au bout de la représentation. Ceci est normal car le but du circuit et simplement de déplacer les bits visuels de côté et pas de faire quelque chose de cyclique.
 
-Si nous avions décider de faire que le circuit fasse revenir par là droite un bit sortant à gauche, nous aurions dû faire beaucoup de changements pour implémenter le registre à 8 bits en utilisant le registre à 4 bits.
+Si nous avions décidé de faire que le circuit fasse revenir par là droite un bit sortant à gauche, nous aurions dû faire beaucoup de changements pour implémenter le registre à 8 bits en utilisant le registre à 4 bits.
+
+<div style="page-break-after: always;"></div>
 
 ### Question 5
 #### Avec une fréquence d'horloge `clk_i` de 30MHz, calculez le nombre de cycle à attendre pour qu'il corresponde à une fréquence de 4, 2, 1 et 0.5Hz et complétez le tableau ci-dessous avec le nombre de cycles visé en fonction de la fréquence et l'équivalence encodée au format hexadécimal sur 28 bits `0xfffffff`.
@@ -64,7 +70,7 @@ De plus, dans cette exemple, la valeur du `speed` sur deux bits est inversé. Da
 
 - Sur cette première partie du chronogramme nous pouvons voir dans le premier rectangle rouge, le délai entre l'activation de l'entrée `load_i` et le load réel sur les LEDs. Ceci nous montre que c'est une opération synchrone.
 - Dans le deuxième rectangle nous voyons qu'après le load le chenillard maintien simplement la valeur sur les LEDs.
-- Le troisième rectangle nous présente le miantient de la valeur affichée même lorsque nous enlevons l'entrée `load_i`.
+- Le troisième rectangle nous présente le maintient de la valeur affichée même lorsque nous enlevons l'entrée `load_i`.
 - Le quatrième rectangle met en évidence le départ du chenillard avec l'allumage de l'entrée `en_i`. Nous voyons que la valeur des LEDs commence à circuler vers la gauche.
 - Le cinquième rectangle représente le changement de sens de circulation quand on active l'entrée `right_nleft_i`.
 - Le sixième rectangle nous montre l'augmentation de vitesse quand on passe l'entrée speed de `00` à `01`. Nous n'avons donc pas besoin d'arrêter le chenillard pour adapter sa vitesse. Le changement est visible par le temps que passe la sortie LED dans chaque état (moins de temps veut dire plus rapide).
@@ -84,3 +90,5 @@ Il est important de noter que la vitesse de l'horloge `clk` ne varie jamais.
 
 - Le premier rectangle de cette dernière partie nous montre le fonctionnement standard du chenillard.
 - Le deuxième et dernier rectangle nous montre la mise à zéro de la sortie avec l'activation de l'entrée `reset_i`.
+
+</div>
